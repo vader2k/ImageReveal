@@ -18,7 +18,7 @@ const App = () => {
       imageReveal, 
       1.4, 
       { width: '0%', ease: Power2.easeInOut }
-      ).from(image, 1.4, {scale: 1.6, ease: Power2.easeInOut, delay: -2.8})
+      ).from(image, 2, {scale: 1.6, ease: Power2.easeInOut, delay: -2.8})
       
   },[]);
 
